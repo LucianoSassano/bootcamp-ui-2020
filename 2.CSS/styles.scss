@@ -1,12 +1,20 @@
 * {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
+  font-weight: 300;
 
   header {
+    font-size: 50px;
     display: flex;
     text-align: center;
     justify-content: center;
     background-color: red;
+  }
+  .header {
+    font-size: 46px;
+  }
+  .content {
+    font-size: 14px;
   }
   #section-header {
     height: 50px;
@@ -25,6 +33,9 @@
     justify-content: center;
     background-color: green;
   }
+  .footer {
+    font-size: 10px;
+  }
   #section-footer {
     width: auto;
     height: 50px;
@@ -36,6 +47,9 @@
     width: 150px;
     background-color: greenyellow;
   }
+  .sidebar {
+    font-size: 10px;
+  }
 
   nav {
     float: left;
@@ -43,4 +57,15 @@
     width: 150px;
     background-color: hotpink;
   }
+  .navigation {
+    font-size: 12px;
+  }
+
+  body [class$="r"] {
+    background-color: magenta;
+  }
+  body [class*="a"]{
+    background-color: blue;
+  }
+
 }
