@@ -4,7 +4,10 @@
     background-color: yellowgreen;
     display: block;
     float: left;
+    max-width: 1920px;
     width: 100%;
+    max-height: 1080px;
+    height: 100%;
     padding: 8px;
     .card {
       box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3);
@@ -49,5 +52,20 @@
         display: block;
       }
     }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    .card{
+      width: 49%;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      left: 25%;
+    }
+  
   }
 }
