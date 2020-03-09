@@ -2,33 +2,20 @@
   font-family: "Roboto", sans-serif;
 
   section {
-    
     text-align: center;
     justify-content: center;
     margin: 10px;
+    align-content: center;
+    align-items: center;
   }
-  #hidden-section{
-      opacity: 1;
-      animation-name: classicFadeIn;
-      animation-iteration-count: 1;
-      animation-timing-function: ease-in;
-      animation-duration: 2s;
+  #joke-section {
+    margin-left: 25%;
+    background-color: #ccc;
+    height: 100px;
+    width: 50%;
   }
 
-  @keyframes classicFadeIn{
-      0%{
-          opacity: 0;
-      }
-      100%{
-          opacity: 1;
-      }
+  button {
+    margin-left: 47%;
   }
-  button{
-      margin-left: calc(50% - 20px);
-  }
-  
-  
-
-
-
 }
